@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fcfcfc;
+}
+
+.sidebar {
+	height: 100%;
+	width: 70px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+	padding-top: 80px;
+	box-shadow: 2px 1px 2px #efefef;
+}
+
+.sidebar a {
+	padding-bottom: 20px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: flex;
+	justify-content: center;
+}
+
+.topnav {
+	background-color: #FFFFFF;
+	overflow: hidden;
+	box-shadow: 5px 1px 10px #efefef;
+	height: 65px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#title {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 40%;
+}
+
+#navbarButtons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100px;
+}
+
+#circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background: #a2ef73;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	height: 40px;
+	width: 40px;
+}
+
+.mainBody {
+	margin-left: 70px;
+}
+
+#heading {
+	font-family: 'Roboto', sans-serif;
+	font-size: 38px;
+	padding-top: 70px;
+	padding-left: 100px;
+	font-weight: 300;
+}
+
+#bulkOrderBox {
+	background: #f7f9f9;
+	margin: 50px;
+	margin-left: 100px;
+	width: 80%;
+	height: auto;
+	padding: 15px;
+}
+
+#bulkOrderHeading {
+	font-family: 'Roboto', sans-serif;
+	color: #00bcb3;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+#bulkBoxText {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	width: 70%;
+	margin-top: 20px;
+	color: grey;
+}
+
+#bulkOrderButton {
+	border: 1px solid #00bcb3;
+	margin-top: 20px;
+	padding: 12px;
+	border-radius: 5px;	
+	background: transparent;
+	width: 170px;
+	font-size: 12px;
+	color: #00bcb3;
+}
+
+#cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px;
+	margin-left: 100px;
+	width: 82%;
+	height: auto;
+}
+
+.card {
+	/* border: 1px solid black; */
+	height: 280px;
+	width: 300px;
+	background: white;
+	transition: 0.3s;
+}
+
+.card:hover {
+	box-shadow: 0px 0px 10px #efefef;
+}
+
+.margin100 {
+	margin-top: 100px;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+.cardContent {
+	padding: 30px;
+}
+
+.cardHeader {
+	display: flex;
+	align-items: center;
+}
+
+.circleBig {
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	background: #00bcb3;
+}
+
+.cardHeaderText {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 30px;
+	font-size: 20px;
+	color: #00bcb3;
+}
+
+.smallText {
+	color: black;
+	font-size: 16px;
+}
+
+.cardText {
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: grey;
+}
+
+.cardButton {
+	border: 1px solid #00bcb3;
+	margin-top: 20px;
+	padding: 8px;
+	border-radius: 5px;	
+	background: transparent;
+	width: 120px;
+	font-size: 15px;
+	color: #00bcb3;
+}
+
+.footerBar {
+	height: 200px;
+}
+
+.footerContainer {
+	height: 100%;
+}
+
+.icons {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.socialIcons {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.companyInfo {
+	color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.marginTop {
+	margin-top: 20px;
+}
